@@ -1,4 +1,9 @@
-x = int(input('What`s x? '))
-y = int(input('What`s y? '))
+def main():
+    x = int(input('What is x? '))
+    print('x squared is', square(x))
 
-print(x+y)
+
+def square(n):
+    return pow(n, 2)
+
+main()
