@@ -20,45 +20,58 @@ In a file called `extensions.py`, implement a program that prompts the user for 
 If the file’s name ends with some other suffix or has no suffix at all, output `application/octet-stream` instead, which is a common default.
 
 ## Hints
+
 - Recall that a `str` comes with quite a few methods, per <https://docs.python.org/3/library/stdtypes.html#string-methods>.
 
 ## Before You Begin
-From the root of your repository execute `cd 1-Conditionals` So your current working directory is ...		
 
-		/1-Conditionals $:
+From the root of your repository execute `cd 1-Conditionals` So your current working directory is ...
+
+    	/1-Conditionals $:
+
 Next execute
 
-		mkdir extensions
+    	mkdir extensions
+
 to make a folder called `extensions` in your codespace.
 
 Then execute
 
-		cd extensions
+    	cd extensions
+
 to change directories into that folder. You should now see your terminal prompt as `/1-Conditionals/extensions $`. You can now execute
 
-		code extensions.py
+    	code extensions.py
+
 to make a file called `extensions.py` where you’ll write your program.
 
 # How to Test
+
 Here’s how to test your code manually:
 
-1. Run your program with `python extensions.py`. Type `happy.jpg` and press Enter. Your program should output:
+1.  Run your program with `python extensions.py`. Type `happy.jpg` and press Enter. Your program should output:
 
-		image/jpeg
-2. Run your program with `python extensions.py`. Type `document.pdf` and press Enter. Your program should output:
+        image/jpeg
 
-		application/pdf
-3. Be sure to test each of the other file formats, vary the casing of your input, and “accidentally” add spaces on either side of your input before pressing enter. Your program should behave as expected, case- and space-insensitively.
+2.  Run your program with `python extensions.py`. Type `document.pdf` and press Enter. Your program should output:
+
+        application/pdf
+
+3.  Be sure to test each of the other file formats, vary the casing of your input, and “accidentally” add spaces on either side of your input before pressing enter. Your program should behave as expected, case- and space-insensitively.
 
 # Commit your program to GITHUB
+
 At the `/1-Conditionals/extensions $` prompt in your terminal:
 
-		git add -A 
+    	git add -A
+
 Add all changed files in the repository to be committed
 
-		git commit -m “Upload completed extensions.py“
-Commit all changes in the REPO with the comment “Upload completed extensions.py“
-*note: If the file is not complete, adjust the comment to describes what is being commited*
+    	git commit -m “Upload completed extensions.py“
 
-		git push 
+Commit all changes in the REPO with the comment “Upload completed extensions.py“
+_note: If the file is not complete, adjust the comment to describes what is being commited_
+
+    	git push
+
 Push all changes to the REPO
